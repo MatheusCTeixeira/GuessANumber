@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Simple Guess Game</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="graphic.css">
+    <script async src='logic.js'></script>
+    <body>
+        <h1>Adivinhe um número entre 1 e 100.</h1>
+        <p>São permitidas 10 tentativas. Você está na tentativa <span class='num_tentativas'>1</span>/10</p>
+        <div class='game'>
+            <div>
+                <span>
+                    <label>Digite um número:</label>
+                    <input class='tentativa' type='text' />
+                    <button class='testar'>Testar</button>
+                </span>
+            </div>
+            <div class='info'>
+                <label>Dica:</label>
+                <span class='dica'></span>
+            </div>
+            <div class='info'>
+                
+                <span>
+                    <label>Já testados:</label>
+                    <span class='tentativas'>Ainda nenhuma</span>
+                </span>
+            </div>
+        </div>
+    </body>
+</html>
